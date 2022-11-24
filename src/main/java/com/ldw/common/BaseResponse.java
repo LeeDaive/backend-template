@@ -1,5 +1,7 @@
 package com.ldw.common;
 
+import lombok.Data;
+
 import java.io.Serializable;
 
 /**
@@ -8,6 +10,7 @@ import java.io.Serializable;
  * @Date 2022/11/4 14:21
  * @Created by ldw
  */
+@Data
 public class BaseResponse<T> implements Serializable {
 
     private int code;
